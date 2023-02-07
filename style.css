@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(0, 0, 0, 0.516);
+}
+
+.container{
+    display: flex;
+    position: relative;
+    left: 40vh;
+    top: 20vh;
+    height: 70vh;
+    border: 2px solid gray;
+    width: 400px;
+    background-color: rgba(255, 192, 203, 0.628);
+
+}
+.back {
+    position: relative;
+    top: 7vh;
+    left: 6vh;
+    size: large;
+    
+}
+.bars{
+    position: relative;
+    top: 3.5vh;
+    left: 38vh;
+
+
+}

@@ -5,9 +5,9 @@ body{
 .container{
     display: flex;
     position: relative;
-    left: 40vh;
+    left: 10vh;
     top: 20vh;
-    height: 70vh;
+    height: 80vh;
     border: 2px solid gray;
     width: 400px;
     background-color: rgba(255, 192, 203, 0.628);
@@ -18,12 +18,68 @@ body{
     top: 7vh;
     left: 6vh;
     size: large;
+
     
 }
 .bars{
     position: relative;
     top: 3.5vh;
     left: 38vh;
+
+
+
+}
+
+.mid img{
+    display: flex;
+    position: relative;
+    top: 140px;
+    left: 55px;
+    border-radius: 50%;
+    width: 220px;
+    border: 1.5px solid rgba(255, 255, 255, 0.591);
+    box-shadow: 0px 10px 60px rgba(255, 26, 26, 0.22);
+
+}
+.details{
+    
+    position: relative;
+    left: 210px;
+    bottom: 90px;
+    justify-content: center;
+}
+
+
+#progress{
+    -webkit-appearance: none;
+    width: 50%;
+    height: 6px;
+    background: #f53192;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 4px 0;
+    justify-content: center;
+
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #f53192;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+
+}
+.controls i{
+    width: 60px;
+    height: 60px; 
+    margin: 20px;
+    color: #f53192;
+    border-radius: 50px;
+
+    
 
 
 }
